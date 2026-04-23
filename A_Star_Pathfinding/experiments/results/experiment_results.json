@@ -1,0 +1,292 @@
+{
+  "density_experiments": {
+    "0.1": {
+      "A* (Manhattan)": {
+        "avg_nodes_expanded": 319.4,
+        "avg_nodes_visited": 319.4,
+        "avg_path_length": 69.2,
+        "avg_execution_time": 0.0018456459045410156,
+        "std_nodes_expanded": 171.91812004556124,
+        "std_nodes_visited": 171.91812004556124,
+        "std_path_length": 19.893717601293126,
+        "std_execution_time": 0.0009744665258223859,
+        "trials": 5
+      },
+      "A* (Euclidean)": {
+        "avg_nodes_expanded": 1025.2,
+        "avg_nodes_visited": 1025.2,
+        "avg_path_length": 69.2,
+        "avg_execution_time": 0.004309368133544922,
+        "std_nodes_expanded": 505.28225775303054,
+        "std_nodes_visited": 505.28225775303054,
+        "std_path_length": 19.893717601293126,
+        "std_execution_time": 0.002076979706630626,
+        "trials": 5
+      },
+      "Dijkstra": {
+        "avg_nodes_expanded": 4533.2,
+        "avg_nodes_visited": 4533.2,
+        "avg_path_length": 69.2,
+        "avg_execution_time": 0.01470041275024414,
+        "std_nodes_expanded": 1452.9230399439607,
+        "std_nodes_visited": 1452.9230399439607,
+        "std_path_length": 19.893717601293126,
+        "std_execution_time": 0.004834176321005053,
+        "trials": 5
+      },
+      "BFS": {
+        "avg_nodes_expanded": 4539.8,
+        "avg_nodes_visited": 4633.4,
+        "avg_path_length": 69.2,
+        "avg_execution_time": 0.007483005523681641,
+        "std_nodes_expanded": 1440.2421185342414,
+        "std_nodes_visited": 1437.5645515941187,
+        "std_path_length": 19.893717601293126,
+        "std_execution_time": 0.002435410469441437,
+        "trials": 5
+      }
+    },
+    "0.2": {
+      "A* (Manhattan)": {
+        "avg_nodes_expanded": 451.6,
+        "avg_nodes_visited": 451.6,
+        "avg_path_length": 61.0,
+        "avg_execution_time": 0.002159309387207031,
+        "std_nodes_expanded": 339.49232686468775,
+        "std_nodes_visited": 339.49232686468775,
+        "std_path_length": 29.610808837314796,
+        "std_execution_time": 0.0015804919593012362,
+        "trials": 5
+      },
+      "A* (Euclidean)": {
+        "avg_nodes_expanded": 997.0,
+        "avg_nodes_visited": 997.0,
+        "avg_path_length": 61.0,
+        "avg_execution_time": 0.004212236404418946,
+        "std_nodes_expanded": 835.7028179921376,
+        "std_nodes_visited": 835.7028179921376,
+        "std_path_length": 29.610808837314796,
+        "std_execution_time": 0.0035976735716915825,
+        "trials": 5
+      },
+      "Dijkstra": {
+        "avg_nodes_expanded": 4389.8,
+        "avg_nodes_visited": 4389.8,
+        "avg_path_length": 61.0,
+        "avg_execution_time": 0.014045286178588866,
+        "std_nodes_expanded": 2463.2920573898664,
+        "std_nodes_visited": 2463.2920573898664,
+        "std_path_length": 29.610808837314796,
+        "std_execution_time": 0.007872295471774699,
+        "trials": 5
+      },
+      "BFS": {
+        "avg_nodes_expanded": 4373.8,
+        "avg_nodes_visited": 4455.2,
+        "avg_path_length": 61.0,
+        "avg_execution_time": 0.007128763198852539,
+        "std_nodes_expanded": 2473.251010310114,
+        "std_nodes_visited": 2480.886244872989,
+        "std_path_length": 29.610808837314796,
+        "std_execution_time": 0.0040809672432385105,
+        "trials": 5
+      }
+    },
+    "0.3": {
+      "A* (Manhattan)": {
+        "avg_nodes_expanded": 713.2,
+        "avg_nodes_visited": 713.2,
+        "avg_path_length": 85.6,
+        "avg_execution_time": 0.0031976699829101562,
+        "std_nodes_expanded": 463.79969814565425,
+        "std_nodes_visited": 463.79969814565425,
+        "std_path_length": 20.86719914123599,
+        "std_execution_time": 0.0020336228415511006,
+        "trials": 5
+      },
+      "A* (Euclidean)": {
+        "avg_nodes_expanded": 1352.0,
+        "avg_nodes_visited": 1352.0,
+        "avg_path_length": 85.6,
+        "avg_execution_time": 0.005438232421875,
+        "std_nodes_expanded": 621.5281168217573,
+        "std_nodes_visited": 621.5281168217573,
+        "std_path_length": 20.86719914123599,
+        "std_execution_time": 0.0025166546283350855,
+        "trials": 5
+      },
+      "Dijkstra": {
+        "avg_nodes_expanded": 3499.8,
+        "avg_nodes_visited": 3499.8,
+        "avg_path_length": 85.6,
+        "avg_execution_time": 0.010899066925048828,
+        "std_nodes_expanded": 1145.4444377620418,
+        "std_nodes_visited": 1145.4444377620418,
+        "std_path_length": 20.86719914123599,
+        "std_execution_time": 0.0036203075914780455,
+        "trials": 5
+      },
+      "BFS": {
+        "avg_nodes_expanded": 3508.6,
+        "avg_nodes_visited": 3577.4,
+        "avg_path_length": 85.6,
+        "avg_execution_time": 0.005592823028564453,
+        "std_nodes_expanded": 1141.0774907954324,
+        "std_nodes_visited": 1145.1093572231432,
+        "std_path_length": 20.86719914123599,
+        "std_execution_time": 0.0018662264924969054,
+        "trials": 5
+      }
+    }
+  },
+  "edge_cases": {
+    "start_equals_goal": {
+      "A* (Manhattan)": {
+        "success": true,
+        "path_length": 1,
+        "nodes_expanded": 0,
+        "execution_time": 9.5367431640625e-07
+      },
+      "A* (Euclidean)": {
+        "success": true,
+        "path_length": 1,
+        "nodes_expanded": 0,
+        "execution_time": 0.0
+      },
+      "Dijkstra": {
+        "success": true,
+        "path_length": 1,
+        "nodes_expanded": 0,
+        "execution_time": 9.5367431640625e-07
+      },
+      "BFS": {
+        "success": true,
+        "path_length": 1,
+        "nodes_expanded": 0,
+        "execution_time": 0.0
+      }
+    },
+    "goal_unreachable": {
+      "A* (Manhattan)": {
+        "success": false,
+        "nodes_expanded": 100,
+        "error": "No path found (goal unreachable)"
+      },
+      "A* (Euclidean)": {
+        "success": false,
+        "nodes_expanded": 100,
+        "error": "No path found (goal unreachable)"
+      },
+      "Dijkstra": {
+        "success": false,
+        "nodes_expanded": 100,
+        "error": "No path found (goal unreachable)"
+      },
+      "BFS": {
+        "success": false,
+        "nodes_expanded": 100,
+        "error": "No path found (goal unreachable)"
+      }
+    },
+    "simple_path": {
+      "A* (Manhattan)": {
+        "success": true,
+        "nodes_expanded": 99,
+        "path_length": 99.0
+      },
+      "A* (Euclidean)": {
+        "success": true,
+        "nodes_expanded": 99,
+        "path_length": 99.0
+      },
+      "Dijkstra": {
+        "success": true,
+        "nodes_expanded": 7499,
+        "path_length": 99.0
+      },
+      "BFS": {
+        "success": true,
+        "nodes_expanded": 7500,
+        "path_length": 99.0
+      }
+    }
+  },
+  "size_experiments": {
+    "50": {
+      "A* (Manhattan)": {
+        "avg_nodes_expanded": 89.2,
+        "avg_nodes_visited": 89.2,
+        "avg_path_length": 33.0,
+        "avg_execution_time": 0.00048370361328125,
+        "std_nodes_expanded": 15.091719583930786,
+        "std_execution_time": 8.134266116300941e-05,
+        "trials": 5
+      },
+      "A* (Euclidean)": {
+        "avg_nodes_expanded": 216.4,
+        "avg_nodes_visited": 216.4,
+        "avg_path_length": 33.0,
+        "avg_execution_time": 0.0009621620178222656,
+        "std_nodes_expanded": 106.21977217072158,
+        "std_execution_time": 0.0004375111398648362,
+        "trials": 5
+      },
+      "Dijkstra": {
+        "avg_nodes_expanded": 1018.6,
+        "avg_nodes_visited": 1018.6,
+        "avg_path_length": 33.0,
+        "avg_execution_time": 0.0032413959503173827,
+        "std_nodes_expanded": 368.3235534146574,
+        "std_execution_time": 0.0011558853611567553,
+        "trials": 5
+      },
+      "BFS": {
+        "avg_nodes_expanded": 1029.6,
+        "avg_nodes_visited": 1071.4,
+        "avg_path_length": 33.0,
+        "avg_execution_time": 0.001724386215209961,
+        "std_nodes_expanded": 383.2897598423417,
+        "std_execution_time": 0.0006583901084448146,
+        "trials": 5
+      }
+    },
+    "100": {
+      "A* (Manhattan)": {
+        "avg_nodes_expanded": 422.6,
+        "avg_nodes_visited": 422.6,
+        "avg_path_length": 87.2,
+        "avg_execution_time": 0.0020416259765625,
+        "std_nodes_expanded": 189.6360725178625,
+        "std_execution_time": 0.0008770771435567976,
+        "trials": 5
+      },
+      "A* (Euclidean)": {
+        "avg_nodes_expanded": 1793.8,
+        "avg_nodes_visited": 1793.8,
+        "avg_path_length": 87.2,
+        "avg_execution_time": 0.007304573059082031,
+        "std_nodes_expanded": 1087.5683702646008,
+        "std_execution_time": 0.004413230286847424,
+        "trials": 5
+      },
+      "Dijkstra": {
+        "avg_nodes_expanded": 5292.6,
+        "avg_nodes_visited": 5292.6,
+        "avg_path_length": 87.2,
+        "avg_execution_time": 0.016732168197631837,
+        "std_nodes_expanded": 2457.1284541106106,
+        "std_execution_time": 0.007774282905877262,
+        "trials": 5
+      },
+      "BFS": {
+        "avg_nodes_expanded": 5286.2,
+        "avg_nodes_visited": 5338.2,
+        "avg_path_length": 87.2,
+        "avg_execution_time": 0.008506584167480468,
+        "std_nodes_expanded": 2458.9385840236027,
+        "std_execution_time": 0.0040236585904245975,
+        "trials": 5
+      }
+    }
+  }
+}
