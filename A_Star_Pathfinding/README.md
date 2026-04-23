@@ -49,8 +49,6 @@ A_Star_Pathfinding/
 │   ├── experiment_runner.py    # Experiment orchestration
 │   ├── run_experiments.py      # Main execution script
 │   └── generate_report.py      # Final report generation
-├── results/                    # Experimental results (JSON)
-├── visualizations/             # Generated charts and images
 └── README.md                   # This file
 ```
 
@@ -173,27 +171,27 @@ Hart et al.'s central theorem states:
 
 ### Empirical Verification Results
 
-✅ **Admissibility Maintained:** Both Manhattan and Euclidean distances never overestimate  
-✅ **Optimality Guaranteed:** All algorithms found identical (shortest) paths  
-✅ **Efficiency Proven:** A\* expanded significantly fewer nodes than alternatives  
-✅ **Consistency:** Results held across all test configurations  
+**Admissibility Maintained:** Both Manhattan and Euclidean distances never overestimate  
+**Optimality Guaranteed:** All algorithms found identical (shortest) paths  
+**Efficiency Proven:** A\* expanded significantly fewer nodes than alternatives  
+**Consistency:** Results held across all test configurations  
 
 ## Edge Case Handling
 
 ### Test 1: Start Equals Goal
-- ✅ All algorithms return immediately with path length 0
-- ✅ Zero nodes expanded
-- ✅ Execution time < 1ms
+- All algorithms return immediately with path length 0
+- Zero nodes expanded
+- Execution time < 1ms
 
 ### Test 2: Goal Unreachable
-- ✅ All algorithms terminate properly
-- ✅ Return "goal unreachable" error message
-- ✅ No infinite loops or crashes
+- All algorithms terminate properly
+- Return "goal unreachable" error message
+- No infinite loops or crashes
 
 ### Test 3: Simple Straight Path
-- ✅ Optimal paths identified
-- ✅ Manhattan: ~100 nodes (optimal)
-- ✅ BFS: ~400 nodes (no heuristic guidance)
+- Optimal paths identified
+- Manhattan: ~100 nodes (optimal)
+- BFS: ~400 nodes (no heuristic guidance)
 
 ## Code Quality
 
@@ -268,8 +266,7 @@ Possible enhancements:
 ## Author
 
 Student Name: Yayi Luo  
-Course: Capstone Project (5100)  
-University: [Institution Name]  
+Course: Capstone Project (5100) 
 Date: April 2026
 
 ## License
